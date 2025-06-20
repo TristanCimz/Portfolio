@@ -1,0 +1,31 @@
+<body>
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D3D3D3;
+      --text-color:(210, 15%, 25%);
+}
+
+header {
+    background-color: #808080;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.profileP {
+    border-radius: 50%; /* Circular image */
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border: 5px solid #FFFFFF; /* White border around the image */
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 0 auto; /* Centers horizontally */
+}
+
+
+    </style>
